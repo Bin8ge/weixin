@@ -1,0 +1,14 @@
+.father {
+  width: 500rpx;
+  height: 500rpx;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.son {
+  width: 300rpx;
+  height: 300rpx;
+  background-color: red;
+}

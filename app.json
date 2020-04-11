@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/study/study",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Bingo课堂",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#8a8a8a",
+    "selectedColor":"#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"/images/tabar/index.png",
+        "selectedIconPath":"/images/tabar/index_select.png"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "text": "我的学习",
+        "iconPath": "/images/tabar/class.png",
+        "selectedIconPath": "/images/tabar/class_select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "个人中心",
+        "iconPath": "/images/tabar/me.png",
+        "selectedIconPath": "/images/tabar/me_select.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
