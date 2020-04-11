@@ -1,5 +1,4 @@
-//index.js 
-//获取应用实例
+//index.js 223
 const app = getApp()
 
 Page({
